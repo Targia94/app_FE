@@ -44,14 +44,9 @@ export const routes: Route[] = [
       'alternate',
     ],
   },
-  /* {
-    label: "Preleva",
-    key: "/dashboard/preleva-materiali",
-    icon: <InboxArrowDownIcon width={20} />,
-  }, */
   {
-    label: 'Approvazione prelievo',
-    key: '/dashboard/prelievi-da-approvare',
+    label: 'Inserisci Attività',
+    key: '/dashboard/inserisci-attivita',
     icon: <ClipboardDocumentCheckIcon width={20} />,
     permissions: ['admin', 'supervisor', 'ptl', 'alternate'],
   },
@@ -61,34 +56,7 @@ export const routes: Route[] = [
     hidden: true,
     permissions: ['admin', 'supervisor', 'ptl', 'alternate'],
   },
-  /* {
-    label: 'Cronologia Prelievi',
-    key: '/dashboard/storico-lista',
-    icon: <BookOpenIcon width={20} />,
-    permissions: [
-      'contractor',
 
-      'operatore_meccanico',
-      'operatore_ovm',
-      'operatore_elettrico',
-      'operatore_produzione',
-      'ptl',
-
-    ],
-  }, */
-  /* {
-    label: 'Cronologia Rda',
-    key: '/dashboard/cronologia-rda',
-    icon: <DocumentMagnifyingGlassIcon width={20} />,
-    permissions: [
-      'rda_procurement',
-      'rda_L1',
-      'rda_L2',
-      'admin',
-      'rda_spv'
-    ],
-  }, */
-  
   {
     label: 'Richieste di Acquisto in corso',
     key: '/dashboard/richieste',
@@ -200,30 +168,6 @@ export const routes: Route[] = [
     permissions: ['admin'],
     hidden: true,
   },
-  /* {
-    label: 'Parti Macchine',
-    key: '/dashboard/parti_macchina',
-    icon: <ArrowPathIcon width={20} />,
-    permissions: ['admin'],
-  },
-  {
-    label: 'Categorie',
-    key: '/dashboard/categorie',
-    icon: <ArrowPathIcon width={20} />,
-    permissions: ['admin'],
-  },
-  {
-    label: 'Gl-Account',
-    key: '/dashboard/gl-account',
-    icon: <ArrowPathIcon width={20} />,
-    permissions: ['admin'],
-  },
-  {
-    label: 'Fornitori',
-    key: '/dashboard/fornitori',
-    icon: <ArrowPathIcon width={20} />,
-    permissions: ['admin'],
-  }, */
   {
     label: 'Budget',
     key: '/dashboard/budget',
@@ -297,25 +241,6 @@ export const routes: Route[] = [
       }
     ]
   },
-  /* {
-    label: 'Richieste',
-    key: '/dashboard/richieste',
-    icon: <ListBulletIcon width={20} />,
-    permissions: ['admin'],
-  },
-  {
-    label: 'Nuova Richiesta',
-    key: '/dashboard/richieste/nuova-richiesta',
-    icon: <ListBulletIcon width={20} />,
-    permissions: ['admin'],
-    hidden: true,
-  },
-  {
-    label: 'Esportazione',
-    key: '/dashboard/esportazione',
-    icon: <ListBulletIcon width={20} />,
-    permissions: ['admin'],
-  }, */
   {
     label: 'Aggiorna Database',
     key: '/dashboard/aggiorna-database',

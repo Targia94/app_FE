@@ -51,7 +51,7 @@ export default function DashboardPage() {
             <Card
               hoverable
               className="bg-jindalBlue items-center justify-center h-full"
-              onClick={() => router.push(`/dashboard/storico-lista`)}
+              onClick={() => router.push(`/dashboard/inserisci-attivita`)}
             >
               <Typography.Title
                 level={4}
